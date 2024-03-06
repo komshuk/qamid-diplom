@@ -1,0 +1,113 @@
+{
+    "name": "shouldRemainOnTheMainScreenWhenEmptyLogin",
+    "start": 1687200372968,
+    "stop": 1687200377678,
+    "stage": "finished",
+    "description": "После авторизации с пустым логином должен остаться на экране авторизации",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Ввод в поле пароль {password}",
+            "start": 1687200376683,
+            "stop": 1687200376683,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажатие на кнопку ВОЙТИ",
+            "start": 1687200376715,
+            "stop": 1687200376715,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка видимости элемента с текстом Авторизация",
+            "start": 1687200377106,
+            "stop": 1687200377106,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "cb90823f-5556-4189-86d9-fea3cd501b5a",
+    "historyId": "f6c5549ff04e61e727e639fc99adc065",
+    "fullName": "ru.iteco.fmhandroid.AuthTest.shouldRemainOnTheMainScreenWhenEmptyLogin",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.AuthTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldRemainOnTheMainScreenWhenEmptyLogin"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.AuthTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6269)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "epic",
+            "value": "Авторизация"
+        },
+        {
+            "name": "feature",
+            "value": " Авторизация с пустым логином"
+        },
+        {
+            "name": "severity",
+            "value": "critical"
+        }
+    ]
+}

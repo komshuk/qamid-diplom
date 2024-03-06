@@ -1,0 +1,116 @@
+{
+    "name": "shouldOpenPrivacyPolicy",
+    "start": 1687200317096,
+    "stop": 1687200355885,
+    "stage": "finished",
+    "description": "Должна открыться политика конфиденциальности",
+    "descriptionHtml": null,
+    "status": "broken",
+    "statusDetails": {
+        "message": "No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?",
+        "trace": "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\n\tat dalvik.system.VMStack.getThreadStackTrace(Native Method)\n\tat java.lang.Thread.getStackTrace(Thread.java:1720)\n\tat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\n\tat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\n\tat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\n\tat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\n\tat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:4)\n\tat ru.iteco.fmhandroid.pageObject.AboutApp.back(AboutApp.java:54)\n\tat ru.iteco.fmhandroid.AboutAppTest.shouldOpenPrivacyPolicy(AboutAppTest.java:67)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)\n\tat org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)\n\tat io.qameta.allure.android.runners.AllureAndroidJUnit4.run(AllureAndroidJUnitRunners.kt:29)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)\n\tat androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:444)\n\tat android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2189)\n"
+    },
+    "steps": [
+        {
+            "name": "Переход на экран о приложении",
+            "start": 1687200321460,
+            "stop": 1687200321460,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка Intent политики конфиденциальности с url {url}",
+            "start": 1687200322334,
+            "stop": 1687200322334,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажатие на кнопку Назад",
+            "start": 1687200322679,
+            "stop": 1687200322679,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "13ffccbd-29e7-48d8-aa88-d9f0bb78904f",
+    "historyId": "a2826fef117f69b100e5c97c141141c5",
+    "fullName": "ru.iteco.fmhandroid.AboutAppTest.shouldOpenPrivacyPolicy",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.AboutAppTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldOpenPrivacyPolicy"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.AboutAppTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6269)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "epic",
+            "value": "О приложении"
+        },
+        {
+            "name": "feature",
+            "value": "Просмотр политики конфиденциальности"
+        },
+        {
+            "name": "severity",
+            "value": "critical"
+        }
+    ]
+}

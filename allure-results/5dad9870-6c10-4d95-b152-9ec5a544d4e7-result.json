@@ -1,0 +1,129 @@
+{
+    "name": "shouldRemainOnTheMainScreenWhenEnteringInTheLoginFieldOneCharacter",
+    "start": 1687200363387,
+    "stop": 1687200368058,
+    "stage": "finished",
+    "description": "После авторизации с введением в поле логин 1 символа должен остаться на экране авторизации",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Ввод в поле логин {login}",
+            "start": 1687200367145,
+            "stop": 1687200367145,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод в поле пароль {password}",
+            "start": 1687200367194,
+            "stop": 1687200367194,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажатие на кнопку ВОЙТИ",
+            "start": 1687200367248,
+            "stop": 1687200367249,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка видимости элемента с текстом Авторизация",
+            "start": 1687200367547,
+            "stop": 1687200367547,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "5dad9870-6c10-4d95-b152-9ec5a544d4e7",
+    "historyId": "49b6331a43db470a70f9b9e42e7014ff",
+    "fullName": "ru.iteco.fmhandroid.AuthTest.shouldRemainOnTheMainScreenWhenEnteringInTheLoginFieldOneCharacter",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.AuthTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldRemainOnTheMainScreenWhenEnteringInTheLoginFieldOneCharacter"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.AuthTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6269)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "epic",
+            "value": "Авторизация"
+        },
+        {
+            "name": "feature",
+            "value": "Авторизация при введении в поле логин 1 символ"
+        },
+        {
+            "name": "severity",
+            "value": "normal"
+        }
+    ]
+}

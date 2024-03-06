@@ -1,0 +1,53 @@
+{
+    "name": "4.Вход в личный кабинет с пустым паролем",
+    "start": 1709758310081,
+    "stop": 1709758320362,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "f73c0b2d-9bc4-4ae4-8fb6-f62811e2fdaa",
+    "historyId": "a9ea9ad812912595cf5a0e805b0acb2b",
+    "fullName": "ru.netology.tests.AuthTest.testAuthEmptyPassword",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.netology.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.netology.tests.AuthTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "testAuthEmptyPassword"
+        },
+        {
+            "name": "suite",
+            "value": "ru.netology.tests.AuthTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(543)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+{
+    "name": "shouldLogInAndShowTheMainScreenAndLogOut",
+    "start": 1687201588840,
+    "stop": 1687201592633,
+    "stage": "finished",
+    "description": "После авторизации с валидными данными должен показаться главный экран, после выхода из профиля - экран авторизации",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Ввод в поле логин {login}",
+            "start": 1687201592075,
+            "stop": 1687201592075,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод в поле пароль {password}",
+            "start": 1687201592090,
+            "stop": 1687201592090,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажатие на кнопку ВОЙТИ",
+            "start": 1687201592105,
+            "stop": 1687201592105,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка видимости элемента с текстом Новости",
+            "start": 1687201592380,
+            "stop": 1687201592380,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "807d1614-d120-453e-ab4f-2cd02f7e0a06",
+    "historyId": "ffe75f58ddeb1411c160d21b46acebcb",
+    "fullName": "ru.iteco.fmhandroid.AuthTest.shouldLogInAndShowTheMainScreenAndLogOut",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.AuthTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldLogInAndShowTheMainScreenAndLogOut"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.AuthTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6444)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "epic",
+            "value": "Авторизация"
+        },
+        {
+            "name": "feature",
+            "value": "Успешная авторизация в приложении и выход из профиля"
+        },
+        {
+            "name": "severity",
+            "value": "blocker"
+        }
+    ]
+}

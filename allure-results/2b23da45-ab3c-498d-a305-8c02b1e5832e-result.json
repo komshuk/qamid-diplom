@@ -1,0 +1,145 @@
+{
+    "name": "shouldRemainOnTheMainScreenWhenEnteringInThePasswordField1Character",
+    "start": 1687200355961,
+    "stop": 1687200363301,
+    "stage": "finished",
+    "description": "После авторизации с введением в поле пароль  1 символа должен остаться на экране авторизации",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Выход из профиля",
+            "start": 1687200360870,
+            "stop": 1687200360870,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод в поле логин {login}",
+            "start": 1687200362177,
+            "stop": 1687200362177,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод в поле пароль {password}",
+            "start": 1687200362264,
+            "stop": 1687200362264,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажатие на кнопку ВОЙТИ",
+            "start": 1687200362351,
+            "stop": 1687200362352,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка видимости элемента с текстом Авторизация",
+            "start": 1687200362664,
+            "stop": 1687200362664,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "2b23da45-ab3c-498d-a305-8c02b1e5832e",
+    "historyId": "5b4650cffc67a231961178104ca85349",
+    "fullName": "ru.iteco.fmhandroid.AuthTest.shouldRemainOnTheMainScreenWhenEnteringInThePasswordField1Character",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.AuthTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldRemainOnTheMainScreenWhenEnteringInThePasswordField1Character"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.AuthTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6269)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "epic",
+            "value": "Авторизация"
+        },
+        {
+            "name": "feature",
+            "value": " Авторизация при введении в поле пароль 1 символа"
+        },
+        {
+            "name": "severity",
+            "value": "normal"
+        }
+    ]
+}

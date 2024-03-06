@@ -1,0 +1,129 @@
+{
+    "name": "shouldRemainOnTheMainScreenWhenEnteringDataUsingCase",
+    "start": 1687199611827,
+    "stop": 1687199616478,
+    "stage": "finished",
+    "description": "После авторизации с использованием регистра должен остаться на экране авторизации",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Ввод в поле логин {login}",
+            "start": 1687199615738,
+            "stop": 1687199615738,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод в поле пароль {password}",
+            "start": 1687199615763,
+            "stop": 1687199615763,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажатие на кнопку ВОЙТИ",
+            "start": 1687199615805,
+            "stop": 1687199615805,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка видимости элемента с текстом Авторизация",
+            "start": 1687199616092,
+            "stop": 1687199616092,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "6fb5a722-4366-4e27-87d7-f73b80557869",
+    "historyId": "1b3378ac6fe3008bf7ae95222bc2d10f",
+    "fullName": "ru.iteco.fmhandroid.AuthTest.shouldRemainOnTheMainScreenWhenEnteringDataUsingCase",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.AuthTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldRemainOnTheMainScreenWhenEnteringDataUsingCase"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.AuthTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6194)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "epic",
+            "value": "Авторизация"
+        },
+        {
+            "name": "feature",
+            "value": "Авторизация невалидного пользователя при использовании регистра"
+        },
+        {
+            "name": "severity",
+            "value": "critical"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "name": "shouldChangeStatusOfClaimsToComplited",
+    "start": 1687199377040,
+    "stop": 1687199381503,
+    "stage": "finished",
+    "description": "После исполнения статус заявки изменится на исполнена, появится комментарий",
+    "descriptionHtml": null,
+    "status": "broken",
+    "statusDetails": {
+        "message": "Class 'androidx.test.espresso.action.Tap$1' does not implement interface 'org.hamcrest.SelfDescribing' in call to 'void org.hamcrest.SelfDescribing.describeTo(org.hamcrest.Description)' (declaration of 'org.hamcrest.BaseDescription' appears in /data/app/ru.iteco.fmhandroid.test-am_PeYDPsjTeDpw0Kzzn-A==/base.apk)",
+        "trace": "java.lang.IncompatibleClassChangeError: Class 'androidx.test.espresso.action.Tap$1' does not implement interface 'org.hamcrest.SelfDescribing' in call to 'void org.hamcrest.SelfDescribing.describeTo(org.hamcrest.Description)' (declaration of 'org.hamcrest.BaseDescription' appears in /data/app/ru.iteco.fmhandroid.test-am_PeYDPsjTeDpw0Kzzn-A==/base.apk)\n\tat org.hamcrest.BaseDescription.appendDescriptionOf(BaseDescription.java:24)\n\tat org.hamcrest.StringDescription.toString(StringDescription.java:28)\n\tat org.hamcrest.BaseMatcher.toString(BaseMatcher.java:26)\n\tat androidx.test.espresso.action.GeneralClickAction.getDescription(GeneralClickAction.java:1)\n\tat androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:3)\n\tat androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat android.os.Handler.handleCallback(Handler.java:883)\n\tat android.os.Handler.dispatchMessage(Handler.java:100)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\n"
+    },
+    "steps": [
+        {
+            "name": "Переход на экран Заявки",
+            "start": 1687199380779,
+            "stop": 1687199380779,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "79ddd9e3-b0b9-40f6-958c-4145163825ee",
+    "historyId": "206d8c6b88d32ef691b1001d08f8a902",
+    "fullName": "ru.iteco.fmhandroid.ClaimTest.shouldChangeStatusOfClaimsToComplited",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ClaimTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldChangeStatusOfClaimsToComplited"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ClaimTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6142)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "epic",
+            "value": "Заявки"
+        },
+        {
+            "name": "feature",
+            "value": "Исполнение заявки"
+        },
+        {
+            "name": "severity",
+            "value": "critical"
+        }
+    ]
+}

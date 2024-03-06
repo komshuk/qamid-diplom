@@ -1,0 +1,129 @@
+{
+    "name": "shouldOpenMainScreen",
+    "start": 1687200253212,
+    "stop": 1687200263412,
+    "stage": "finished",
+    "description": "Должен открыться главный экран",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Переход на экран Тематические статьи",
+            "start": 1687200260609,
+            "stop": 1687200260610,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка нахождения на экране Тематические статьи",
+            "start": 1687200261543,
+            "stop": 1687200261543,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Переход на экран Главное",
+            "start": 1687200261557,
+            "stop": 1687200261557,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка видимости элемента с текстом Новости",
+            "start": 1687200262558,
+            "stop": 1687200262558,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "4e5a1f0c-8a35-43c6-a8e6-3b3bae3b8af2",
+    "historyId": "5b5d67c954c836d620170b434c8485c6",
+    "fullName": "ru.iteco.fmhandroid.MainPageTest.shouldOpenMainScreen",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.MainPageTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldOpenMainScreen"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.MainPageTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6259)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "epic",
+            "value": "Главный  экран"
+        },
+        {
+            "name": "feature",
+            "value": "Переход на главный экран"
+        },
+        {
+            "name": "severity",
+            "value": "normal"
+        }
+    ]
+}
