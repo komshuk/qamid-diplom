@@ -37,6 +37,7 @@ public class AppBar {
     public int getPressProfile() {
         return pressProfile;
     }
+
     private final ViewInteraction mainMenuNews = onView(
             allOf(withId(android.R.id.title), withText("Новости")));
 
@@ -53,6 +54,7 @@ public class AppBar {
     private final ViewInteraction buttonMainMenu = onView(withId(R.id.main_menu_image_button));
 
     private final ViewInteraction buttonOurMission = onView(withId(R.id.our_mission_image_button));
+
     @Step("Выход из профиля")
     public void pressOut() {
         Allure.step("Выход из профиля");
